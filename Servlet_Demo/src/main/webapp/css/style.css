@@ -1,0 +1,30 @@
+body {
+    font-family: 'Istoka Web', sans-serif; /* Corrected font name capitalization */
+    color: white;
+    background-color: #212121;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_container ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+
+.menu_container ul li {
+    color: white;
+    padding: 5px 5px;
+}
+
+.menu_container ul li a {
+    color: white;
+    text-decoration: none; /* Removes default underline */
